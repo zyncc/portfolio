@@ -12,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Z3 Stack",
-  description: "Next.js Boilerplate",
+  title: "Chandan Krishna - Full Stack Developer",
+  description: "Chandan Krishna - Full Stack Developer",
 };
 
 export default function RootLayout({
