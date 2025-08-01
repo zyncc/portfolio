@@ -1,5 +1,5 @@
 {
-  "name": "z3-stack",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,9 +11,7 @@
     "check-types": "tsc --noEmit",
     "check": "npm run format && npm run lint && npm run check-types",
     "email:dev": "email dev --dir src/components/emails --port 5555",
-    "db": "drizzle-kit",
-    "ui": "npx shadcn@canary add",
-    "auth:generate": "npx @better-auth/cli@latest generate --config ./src/auth/server.ts --y --output ./src/db/schema/auth.ts && prettier --write ./src/db/schema/auth.ts"
+    "ui": "npx shadcn@canary add"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.1",
